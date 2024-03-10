@@ -1,4 +1,4 @@
-MCU<H2>2-Channel ledstripController for home-assistant controlled by Arduino Giga R3 WiFi</H2>
+MCU<H2>2-Channel ledstrip controller for home-assistant controlled by Arduino Giga R3 WiFi</H2>
 
 I have been searching a long time for a ledstrip controller integrated in Home Assistan, which was not depending on a internet application.
 (I just like to have all my home automation for myselve and not controlled or registered by external compagnies...) <BR>
