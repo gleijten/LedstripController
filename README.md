@@ -2,3 +2,4 @@
 
 With this 2 Channel Controller it is possible to manage 2 ledstrips at once for example to use at 2 sides of a corridor.
 The integration in Home assistant let you control both ledstrips independing
+<img src="extras/HA dashboard.png">
