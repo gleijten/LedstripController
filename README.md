@@ -11,7 +11,7 @@ My requirements:
 - controlling 2 ledstrips at once
 
 My first attempt was with an nodeMCU, but the problem was the lack of sufficient PWM ports. I needed 5 PWM ports for each ledstrip.<BR>
-With the release of Arduino Giga R3 wifi, this problems were solved.<BR>
+With the release of Arduino Giga R3 wifi, this problems was solved.<BR>
 
 Second problem was the interfacing. My ledstrips operate on 24VDC. The Arduino PWM output signal is only 3.3V
 After some research and testing a decided to use a fast switching MOSFET with a logic non-inverting MOSFET driver
