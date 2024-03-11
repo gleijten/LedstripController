@@ -37,4 +37,4 @@ The code includes 2 channels, which can be controlled separately or simply toget
 <BR>
 
 I also included some DEBUG routines for testing purpose.<BR>
-When you choose to change the driver into an inverting type (like the TC4426 or your own variation with NPN transistors) you can simlpy activate the "invert Function" to correct the Arduino output.<BR>
+When you choose to change the driver into an inverting type (like the TC4426 or your own driver variation with NPN transistors) you can simlpy activate the "invert Function" to correct the Arduino output.<BR>
