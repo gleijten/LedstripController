@@ -28,6 +28,9 @@ Because of the power dissipation in the LM7809 it could be necessary to cool it 
 <BR>
 
 <H3>Programming</H3>
+Before starting you need to have a MQTT server available. I used the standard MQTT integration from Home assistant.<BR>
+https://www.home-assistant.io/integrations/mqtt/<BR>
+
 I used the arduino-home-assistant integration from David Chryrzynski ( https://github.com/dawidchyrzynski/arduino-home-assistant)
 and editted his great 'light' and 'switch' examples for my testing program on Arduino.<BR>
 The code includes 2 channels, which can be controlled separately or simply together by switching Ch2 in sync with Ch1.<BR>
