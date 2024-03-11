@@ -12,7 +12,7 @@ My requirements:
 
 <H3>Programming</H3>
 I used the arduino-home-assistant integration from David Chryrzynski ( https://github.com/dawidchyrzynski/arduino-home-assistant)
-and editted his great 'light' and 'switch' examples to my testing program on a Arduino Uno.<BR>
+and editted his great 'light' and 'switch' examples for my testing program on a Arduino Uno.<BR>
 
 
 <H3>Hardware</H3>
@@ -23,9 +23,11 @@ Second problem was the hardware interfacing. My ledstrips operate on 24VDC.<BR>
 After some testing I decided to use a fast switching MOSFET (IRL-540N) to control the ledstrip brightness with PWM.
 This MOSFET has a low power dissipation and high performance in low frequency applications (<100kHz)<BR>
 Because the Arduino Giga PWM output signal is only 3.3V, you need a MOSFET driver for steering the gate-source of the MOSFET with at least 5V.<BR>
-The TC4427CPA is a perfect logic non-inverting dual driver for this purpose.
+The TC4427CPA is a perfect logic non-inverting dual driver for this purpose.<BR>
+By reducing the 24V supply voltage to 9V with a voltage regulator (LM7809), I have both sufficient power for the Arduino's Vin and also for controlling the mosfet driver.<BR>
 
-With this 2 Channel Controller it is possible to manage 2 ledstrips at once for example to use at 2 sides of a corridor.<BR>
-The integration in Home assistant let you control both ledstrips independing or in sync (CH2 follows CH1)
+
+<img scr="extra/Schema.png"> 
+<BR>
 
 <img src="extras/HA dashboard.png">
