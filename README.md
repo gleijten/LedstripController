@@ -5,9 +5,9 @@ So I decided to do some research and developed my own controller.<BR>
 
 My requirements:
 - integration to Home Assistant
+- adjustable colours and brightness
 - controlled by WiFi
-- controlling 2 ledstrips individually or
-- controlling 2 ledstrips at once
+- controlling 2 ledstrips individually and/or both together
 
 My first attempt was with an nodeMCU, but the problem was the lack of sufficient PWM ports. I needed 5 PWM ports for each ledstrip.<BR>
 With the release of Arduino Giga R3 wifi, this problems was solved.<BR>
