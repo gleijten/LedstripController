@@ -5,6 +5,8 @@ C1  -  C10        10nF
 C11 -  C12        100uF
 C13               0,1uF
 C14               0,33uF
+
 IC1	              LM7812CT
 IC2	- IC6         TC4427CPA
+
 Q1	- Q10         IRL540N
