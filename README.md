@@ -28,7 +28,7 @@ The TC4427CPA is a perfect logic non-inverting dual driver for this purpose.<BR>
 By reducing the 24V supply voltage to 9V with a voltage regulator (LM7809), I have both sufficient power for the Arduino's Vin and also for controlling the mosfet driver.<BR>
 
 
-<img scr="extras/Schema.png"> 
+<img src="extras/Schema.png"> 
 <BR>
 
 <img src="extras/HA dashboard.png">
