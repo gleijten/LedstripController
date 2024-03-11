@@ -9,7 +9,7 @@
 #error Wrong board. Please choose "Arduino Giga R1 board"
 #endif
 
-#include <my_secrets.h>     // passwords for network
+#include <my_secrets.h>     // passwords for network  (also see Readme.md)
 #include <WiFi.h>           // onboard wifi library
 #include <ArduinoHA.h>      // homeassistant library
 
@@ -33,7 +33,7 @@
 #define WARMWHITE_PIN2   12
 #define COLDWHITE_PIN2   13
 
-// define following CONST's in a separated file named "my_secrets.h" and assign your own values there for security
+// define following CONST's in a separated file named "my_secrets.h" and assign your own values there for security (also see Readme.md)
 const char* ssid = SECRET_SSID;
 const char* password = SECRET_PASSWORD;
 const char* mqtt_server = SECRET_MQTT_SERVER;  // I use the HomeAssistant MQTT server
