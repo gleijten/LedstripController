@@ -22,7 +22,7 @@ The TC4427CPA is a perfect logic non-inverting dual driver for this purpose.<BR>
 <H5>(Note:  ground any unused driver inputs to avoid a floating state)</H5>
 By reducing the 24V ledstrip supply voltage to 9V with a voltage regulator (LM7809), I have both sufficient power for the Arduino's Vin and also for controlling the mosfet driver.<BR>
 Because of the power dissipation in the LM7809 it could be necessary to cool it down with a sufficiently large heat sink.<BR>
-The drawing below shows the control of 1 colour of the LED strip. For the complete schematic and my PCB, <ahref >click here</ahref>.<BR>
+The drawing below shows the control of 1 colour of the LED strip. For the complete schematic and my PCB, <a href="https://github.com/gleijten/LedstripController/tree/main/DesignSpark" >click here</a>.<BR>
 
 <BR>
 <img src="extras/Schema.png"> 
