@@ -4,7 +4,7 @@ I have been searching some time for a ledstrip controller integration in Home As
 So I did some research and developed my own controller.<BR>
 
 My requirements:
-- integration to Home Assistant
+- integration into Home Assistant
 - no need for external internet connections
 - adjustable colours and brightness
 - controlled by local WiFi
