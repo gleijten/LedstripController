@@ -36,7 +36,7 @@ https://www.home-assistant.io/integrations/mqtt/<BR>
 <BR>
 I used the arduino-home-assistant integration from David Chryrzynski ( https://github.com/dawidchyrzynski/arduino-home-assistant)
 and editted his great 'light' and 'switch' examples for my testing program on Arduino.<BR>
-My <a href="https://github.com/gleijten/LedstripController/blob/main/Arduino/Program%20code">Arduino code</a> includes 2 channels, which can be controlled separately or simply together by switching CH2 in sync with CH1.<BR>
+My <a href="https://github.com/gleijten/LedstripController/blob/main/Arduino/Program%20code">Arduino code</a> includes 2 channels, which can be controlled separately or together easily by switching CH2 in sync with CH1.<BR>
 Channel 2 will then follow the settings of Channel 1 while the last color and brightness settings of Channel 2 will be remembered until the sync switch is deactivated.<BR>
 
 <BR>
@@ -44,8 +44,8 @@ Channel 2 will then follow the settings of Channel 1 while the last color and br
 <BR>
 
 I also included some DEBUG routines for testing purpose.<BR>
-When you choose to change the driver into an inverting type (like the TC4426 or your own driver variation with NPN transistors) you can simlpy activate the "invert Function" to correct the Arduino output.<BR>
+When you choose to change the driver into an inverting type (like the TC4426 or your own driver variation with NPN transistors) you can simply activate the "invert Function" to correct the Arduino output.<BR>
 <BR>
-Intergration into Home assistant with MQTT was easy to perform. With the "Automatically add new entities" option in MQTT active, all defined entities where detected and available for programming in HA.
+Intergration into Home assistant with MQTT was easy to perform. With the "Automatically add new entities" option in MQTT active, all 4 defined entities (2 lights and 2 switches) where detected and available for programming in HA.
 <BR>
 See this <a href="https://github.com/gleijten/LedstripController/blob/main/HA/YAML%20code%20HA%20cardconfig">YAML code</a> for my testing dashboard (fig. above)<BR>
