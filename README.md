@@ -19,7 +19,9 @@ After some testing I decided to use a fast switching MOSFET (IRL-540N) to contro
 This MOSFET has a low power dissipation and high performance.<BR>
 Because the Arduino Giga PWM output signal is only 3.3V, you need a MOSFET driver for steering the gate-source of the MOSFET with at least 5V.<BR>
 The TC4427CPA is a perfect logic non-inverting dual driver for this purpose.<BR>
+
 <H5>(Note:  ground any unused driver inputs to avoid a floating state)</H5>
+
 By reducing the 24V ledstrip supply voltage to 9V with a voltage regulator (LM7809), I have both sufficient power for the Arduino's Vin and also for controlling the mosfet drivers.<BR>
 Because of the power dissipation in the LM7809 it could be necessary to cool it down with a sufficiently large heat sink.<BR>
 The drawing below shows the control of 1 colour of the LED strip. Click for the <a href="https://github.com/gleijten/LedstripController/blob/main/extras/Schema_cpl.png" target="_blank">complete schematic</a> and <a href="https://github.com/gleijten/LedstripController/blob/main/extras/PCB.png" target="_blank">my PCB</a>, or download the files and partlist <a href="https://github.com/gleijten/LedstripController/tree/main/DesignSpark" >here</a>.<BR>
