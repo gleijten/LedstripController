@@ -35,7 +35,7 @@ https://www.home-assistant.io/integrations/mqtt/<BR>
 <BR>
 I used the arduino-home-assistant integration from David Chryrzynski ( https://github.com/dawidchyrzynski/arduino-home-assistant)
 and editted his great 'light' and 'switch' examples for my testing program on Arduino.<BR>
-My Arduino code includes 2 channels, which can be controlled separately or simply together by switching Ch2 in sync with Ch1.<BR>
+My <a href="https://github.com/gleijten/LedstripController/blob/main/Arduino/Program%20code">Arduino code</a> includes 2 channels, which can be controlled separately or simply together by switching Ch2 in sync with Ch1.<BR>
 
 <BR>
 <img src="extras/HA dashboard.png">
