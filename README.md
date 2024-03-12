@@ -1,4 +1,4 @@
-MCU<H2>2-Channel RGBWW ledstrip controller for home-assistant controlled by Arduino Giga R3 WiFi</H2>
+MCU<H2>2-Channel RGBWW ledstrip controller for home-assistant controlled by Arduino Giga R1 WiFi</H2>
 
 I have been searching some time for a ledstrip controller integration in Home Assistant, which is not depending on an external app for registrations.
 So I did some research and developed my own controller.<BR>
