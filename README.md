@@ -46,5 +46,6 @@ Channel 2 will then follow the settings of Channel 1 while the last color and br
 I also included some DEBUG routines for testing purpose.<BR>
 When you choose to change the driver into an inverting type (like the TC4426 or your own driver variation with NPN transistors) you can simlpy activate the "invert Function" to correct the Arduino output.<BR>
 <BR>
-Intergration into Home assistant with MQTT was simple to realise.
-See this <a href="https://github.com/gleijten/LedstripController/blob/main/HA/YAML%20code%20HA%20cardconfig">YAML code</a> for my testing dashboard (fig. above)
+Intergration into Home assistant with MQTT was easy to perform.
+<BR>
+See this <a href="https://github.com/gleijten/LedstripController/blob/main/HA/YAML%20code%20HA%20cardconfig">YAML code</a> for my testing dashboard (fig. above)<BR>
