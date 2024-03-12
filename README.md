@@ -34,7 +34,6 @@ The drawing below shows the control of 1 colour of the LED strip. Click for the 
 Before starting you need to have a MQTT server available in your network. I used the standard MQTT integration from Home Assistant, but any other will do fine.<BR>
 https://www.home-assistant.io/integrations/mqtt/<BR>
 <BR>
-<BR>
 I used the arduino-home-assistant integration from David Chryrzynski ( https://github.com/dawidchyrzynski/arduino-home-assistant)
 and editted his great 'light' and 'switch' examples for my testing program on Arduino.<BR>
 My <a href="https://github.com/gleijten/LedstripController/blob/main/Arduino/Program%20code">Arduino code</a> includes 2 channels, which can be controlled separately or simply together by switching CH2 in sync with CH1. Channel 2 will then follow the settings of Channel 1 while the last color and brightness settings of Channel 2 will be remembered until the sync switch is deactivated.<BR>
