@@ -1,0 +1,19 @@
+type: vertical-stack
+cards:
+  - type: horizontal-stack
+    cards:
+      - type: light
+        entity: light.ledstrip_gang_lichtkanaal_1
+        icon: mdi:led-strip-variant
+        name: Ledstrip CH1
+      - type: light
+        entity: light.ledstrip_gang_lichtkanaal_2
+        icon: mdi:led-strip-variant
+        name: Ledstrip CH2
+  - type: horizontal-stack
+    cards:
+      - type: entities
+        entities:
+          - entity: switch.ledstrip_gang_testled
+          - entity: switch.ledstrip_gang_syncchannels
+            name: Ledstrip_Gang Sync CH1+CH2
