@@ -20,9 +20,9 @@ This MOSFET has a low power dissipation and high performance.<BR>
 Because the Arduino Giga PWM output signal is only 3.3V, you need a MOSFET driver for steering the gate-source of the MOSFET with at least 5V.<BR>
 The TC4427CPA is a perfect logic non-inverting dual driver for this purpose.<BR>
 <H5>(Note:  ground any unused driver inputs to avoid a floating state)</H5>
-By reducing the 24V ledstrip supply voltage to 9V with a voltage regulator (LM7809), I have both sufficient power for the Arduino's Vin and also for controlling the mosfet driver.<BR>
+By reducing the 24V ledstrip supply voltage to 9V with a voltage regulator (LM7809), I have both sufficient power for the Arduino's Vin and also for controlling the mosfet drivers.<BR>
 Because of the power dissipation in the LM7809 it could be necessary to cool it down with a sufficiently large heat sink.<BR>
-The drawing below shows the control of 1 colour of the LED strip. Click for the <a href="https://github.com/gleijten/LedstripController/blob/main/extras/Schema_cpl.png" target="_blank">complete schematic</a> and <a href="https://github.com/gleijten/LedstripController/blob/main/extras/PCB.png" target="_blank">my PCB</a>, or download the files <a href="https://github.com/gleijten/LedstripController/tree/main/DesignSpark" >here</a>.<BR>
+The drawing below shows the control of 1 colour of the LED strip. Click for the <a href="https://github.com/gleijten/LedstripController/blob/main/extras/Schema_cpl.png" target="_blank">complete schematic</a> and <a href="https://github.com/gleijten/LedstripController/blob/main/extras/PCB.png" target="_blank">my PCB</a>, or download the files and partlist <a href="https://github.com/gleijten/LedstripController/tree/main/DesignSpark" >here</a>.<BR>
 
 <BR>
 <img src="extras/Schema.png"> 
@@ -35,7 +35,7 @@ https://www.home-assistant.io/integrations/mqtt/<BR>
 <BR>
 I used the arduino-home-assistant integration from David Chryrzynski ( https://github.com/dawidchyrzynski/arduino-home-assistant)
 and editted his great 'light' and 'switch' examples for my testing program on Arduino.<BR>
-The code includes 2 channels, which can be controlled separately or simply together by switching Ch2 in sync with Ch1.<BR>
+My Arduino code includes 2 channels, which can be controlled separately or simply together by switching Ch2 in sync with Ch1.<BR>
 
 <BR>
 <img src="extras/HA dashboard.png">
