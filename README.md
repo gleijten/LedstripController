@@ -11,7 +11,7 @@ My requirements:
 - controlling 2 ledstrips individually and/or both together with 1 device
 
 <H3>Hardware</H3>
-With the release of <a href="https://store.arduino.cc/products/giga-r1-wifi">Arduino Giga R1 wifi</a> (12 PWM ports) the lack of sufficient PWM ports for controlling 2 strips from 1 device was solved<BR>
+With the release of <a href="https://store.arduino.cc/products/giga-r1-wifi">Arduino Giga R1 wifi</a> (12 PWM ports) the lack of sufficient PWM ports for controlling 2 RGBWW ledstrips from 1 device was solved<BR>
 The HA integration was working without any problems on this new hardware device.<BR>
 
 Second problem was the hardware interfacing. My ledstrips operate on 24VDC.<BR>
